@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+section header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+    padding: 30px;
+}
+
+section header .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+}
+
+section header .logo a span{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 6px;
+}
+
+section header nav li{
+    display: inline-block;
+    list-style: none;
+    padding-left: 20px;
+    transition: 0.5s;
+}
+
+section header nav ul li:hover{
+    transform: translateY(-8px);
+    text-decoration: underline;
+}
+
+section header nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.content{
+    position: absolute;
+    left: 8%;
+    top: 33%;
+}
+
+.content h1{
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 70px;
+    margin-bottom: 50px;
+}
+
+.content .btn{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid red;
+    background-color: red;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    padding: 8px 30px;
+    transition: 0.5s;
+}
+
+.content .btn:hover{
+    background-color: transparent;
+    border: 2px solid red;
+}
+
